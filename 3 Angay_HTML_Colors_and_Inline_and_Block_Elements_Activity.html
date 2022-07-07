@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>
+		HTML Colors and Block and Inline Block
+	</title>
+	<style>
+	#Title {
+		font-family: Arial;
+		text-align: center;
+	}
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		table-layout: fixed;
+	}
+	#Header {
+		background-color: red;
+		color: white;
+	}
+	#inline {
+		display: inline;
+		background-color: #00ff00;
+		color: white;
+	}
+	#block {
+		display: block;
+		background-color: #0000ff;
+		color: white;
+	}
+	</style>
+</head>
+<body>
+	<h1 id="Title">
+		<br>&nbsp
+		HTML INLINE VS. BLOCK ELEMENTS
+		<br>&nbsp
+	</h1>
+	<table style="width:100%">
+		<tr>
+			<th id="Header">
+				INLINE ELEMENTS
+			</th>
+			<th id="Header">
+				BLOCK ELEMENTS
+			</th>
+		</tr>
+		<tr>
+			<td>
+				The following span is an <div id="inline">inline element</div>; its background has been colored to display both the beginning and the end of the inline element's influence.
+			</td>
+			<td>
+				The following paragraph is a<br>
+				<br>
+				<div id="block">block-level element;</div><br>
+				its background has been colored to display both the beginning and the end of the inline element's influence.
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
